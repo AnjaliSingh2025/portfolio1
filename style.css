@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+section#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+section#skills ul li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Project Images */
+section#projects img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px 0;
+}
